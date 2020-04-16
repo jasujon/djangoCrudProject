@@ -9,3 +9,10 @@
 {% comment %} (path('', views.index , name='index'),) add in djangoCrud->urls.py  {% endcomment %}
 
 {% comment %} create index function in djangoCrud->urls.py {% endcomment %}
+
+{% comment %} create index function in djangoCrud->views.py {% endcomment %}
+
+{% comment %} create templates holder  {% endcomment %}
+
+{% comment %} now include djangoCrudProject->settings.py templates holder location  {% endcomment %}
+
