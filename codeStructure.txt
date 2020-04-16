@@ -1,3 +1,11 @@
-{% comment %} 1. django-admin startproject employeed_project {% endcomment %}
+{% comment %} 1. django-admin startproject djangoCrudProject {% endcomment %}
 {% comment %} 2. python manage.py runserver {% endcomment %}
-{% comment %} 3. python manage.py startapp employee_register {% endcomment %}
+{% comment %} 3. python manage.py startapp djangoCrud {% endcomment %}
+
+{% comment %} copy urls.py from djangoCrudProject & paste it in djangoCrud  {% endcomment %}
+{% comment %} include urls.py in djangoCrudProject urls.py  {% endcomment %}
+
+{% comment %} (from . import views) add in djangoCrud . urls.py  {% endcomment %}
+{% comment %} (path('', views.index , name='index'),) add in djangoCrud->urls.py  {% endcomment %}
+
+{% comment %} create index function in djangoCrud->urls.py {% endcomment %}
