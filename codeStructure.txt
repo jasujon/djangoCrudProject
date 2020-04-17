@@ -19,3 +19,9 @@
 
 {% comment %} create master.html file  {% endcomment %}
 
+{% comment %} create class BookList for database {% endcomment %}
+
+
+{% comment %} python manage.py makemigrations {% endcomment %}
+
+{% comment %} python manage.py migrate {% endcomment %}
