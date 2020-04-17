@@ -16,3 +16,6 @@
 
 {% comment %} now include djangoCrudProject->settings.py templates holder location  {% endcomment %}
 
+
+{% comment %} create master.html file  {% endcomment %}
+
