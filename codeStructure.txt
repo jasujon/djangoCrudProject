@@ -31,3 +31,5 @@
 {% comment %} BookList class add in djangoCrud->admin.py {% endcomment %}
 
 {% comment %} Get all data form BookList in djangoCrud->views.py {% endcomment %}
+
+{% comment %} all booklist show in index.py & all data send djangoCrud->views.py {% endcomment %}
