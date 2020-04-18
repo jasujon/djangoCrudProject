@@ -25,3 +25,9 @@
 {% comment %} python manage.py makemigrations {% endcomment %}
 
 {% comment %} python manage.py migrate {% endcomment %}
+
+{% comment %} python manage.py createsuperuser {% endcomment %}
+
+{% comment %} BookList class add in djangoCrud->admin.py {% endcomment %}
+
+{% comment %} Get all data form BookList in djangoCrud->views.py {% endcomment %}

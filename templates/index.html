@@ -5,6 +5,32 @@
     <div class="container">
       <h1 class="py-3 text-center text-primary">Book Store</h1>
       <hr>
+
+      
+          <table class="table table-striped ">
+            <thead>
+              <tr>
+                <th scope="col">Title</th>
+                <th scope="col">Price</th>
+                <th scope="col">Author</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+            {% for book in books %}
+              <tr>
+                <td>{{ book.title }}</td>
+                <td>{{ book.price }}</td>
+                <td>{{ book.author }}</td>
+                <td>
+                    <a class = "btn btn-info" href="/edit/{{ book.id }}">Edit</a>
+                    <a class = "btn btn-danger" href="/delete/{{ book.id }}">Delete</a>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+      
     </div>
 
 {% endblock  %}
