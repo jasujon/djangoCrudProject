@@ -8,11 +8,10 @@
       <hr>
 
         <div class="col-md-6" style="margin:0 auto;">
-          <form action="/create">
-          {% csrf_token %}
+          <form action="/update/{{ books.id }}">
           <div class="form-group">
-            <label for="exampleInputEmail1">Book Name </label>
-            <input type="text" class="form-control" name="title" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Book Name">
+            <label for="title">Book Name </label>
+            <input type="text" class="form-control" name="title"  vlaue="{{ books.title }}" placeholder="{{ books.title }}">
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Book Price </label>
@@ -22,8 +21,7 @@
             <label for="exampleInputPassword1">Book Author </label>
             <input type="text" class="form-control" name="author" id="exampleInputPassword1" placeholder="Enter Book Author Name ">
           </div>
-          <button type="submit" class="btn btn-primary">Create</button>
-          {% comment %} <input type="submit" class="btn btn-success" vlaue="create"> {% endcomment %}
+          <button type="submit" class="btn btn-primary">Update</button>
         </form>
         </div>
 
