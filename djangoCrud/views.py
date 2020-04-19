@@ -15,3 +15,6 @@ def delete(request , id):
     books = BookList.objects.get(pk=id)
     books.delete()
     return redirect('/')
+
+def add_book(request):
+    return render(request , 'add_book.html')
